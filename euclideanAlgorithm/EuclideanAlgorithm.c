@@ -6,6 +6,8 @@
 #include <stdbool.h>
 #include <malloc.h>
 #include <string.h>
+#include <time.h>
+
 long j1; //это второе число Безу, да второе
 long j2; //первое
 char answer[1];//это для проверки Y\n продолжить или не
@@ -79,12 +81,14 @@ int NOD(long a, long b) {
         if(b == 0) break;
         a = tmp;
     }
-
     return tmp;
 }
 
 /**Простите за названия переменных, я почти индус. Смысл в том, что тут расширенный алгоритм Евклида, постройте его на
  * бумаге и поймете как работает этот местод*/
+
+
+
 
 int bezu(long a, long b) {
     int i1 = 1;

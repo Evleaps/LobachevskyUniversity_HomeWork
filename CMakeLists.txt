@@ -3,5 +3,7 @@ project(LobachevskyUniversity_HomeWork)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c searchSquareinCircle/searchSquareInCircle.c searchSquareinCircle/searchSquareInCircle.h euclideanAlgorithm/EuclideanAlgorithm.c euclideanAlgorithm/EuclideanAlgorithm.h)
+set(SOURCE_FILES main.c searchSquareinCircle/searchSquareInCircle.c
+        searchSquareinCircle/searchSquareInCircle.h euclideanAlgorithm/EuclideanAlgorithm.c
+        euclideanAlgorithm/EuclideanAlgorithm.h testTimeEuclideanAlgorithm/EuclideanTest.h testTimeEuclideanAlgorithm/EcludeanTest.c)
 add_executable(LobachevskyUniversity_HomeWork ${SOURCE_FILES})
